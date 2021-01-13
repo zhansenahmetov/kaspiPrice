@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="171.0" prefWidth="381.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kaspiprice.ControllerLicense">
+   <children>
+      <TextField fx:id="licenseKey" layoutX="46.0" layoutY="73.0" prefHeight="25.0" prefWidth="289.0" />
+      <TextArea layoutX="91.0" layoutY="14.0" prefHeight="46.0" prefWidth="200.0" text="Введите ключ регистрации, &#10;спасибо" />
+      <Button layoutX="46.0" layoutY="117.0" mnemonicParsing="false" onAction="#handleSubmit" prefHeight="25.0" prefWidth="108.0" text="ОК" />
+      <Button layoutX="203.0" layoutY="117.0" mnemonicParsing="false" onAction="#handleClose" prefHeight="25.0" prefWidth="108.0" text="Отмена" />
+   </children>
+</Pane>
