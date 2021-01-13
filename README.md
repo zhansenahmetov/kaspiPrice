@@ -1,5 +1,5 @@
 
-##The project is created to make the work with XML files easier.
+# The project is created to make the work with XML files easier.
 
 * Drag and drop XML file with the format used in Kaspi market (Kazakhstan).
 * The app will read and show the list of all possible products.
